@@ -1,0 +1,143 @@
+@media only screen and (max-width: 340px) {
+
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand,
+    .site-main .newsletter-area .newsletters .newsletter-title,
+    .site-main .newsletter-area .newsletters .newsletter-title p, h4,
+    .site-main .servicos-area,
+    .site-main .newsletter-area .newsletters{
+        padding:2%;
+        margin: 0%;
+    }
+
+    .site-main .newsletter-area .newsletters .newsletter-title h4 {
+        font: normal 700 23px/30px var(--baloo) !important;
+    }   
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main .newsletter-area .newsletters form .input-textbox input .form{
+        width:100% !important;
+    }
+
+    .site-main .servicos-area .servicos {
+        width:100%;
+    }
+    .header-area .navbar .navbar-brand span {
+        margin-bottom: 20px;
+        font-size: 35px !important;
+    }
+    .site-main .depoimentos-area .depoimentos-title p {
+        padding: 1%;
+    }
+    .site-main .skills-area .exp-area .whatsapp-area {
+        padding-left: 0rem;
+    }
+    .site-main .site-banner .site-title h3 {
+    padding-top: 15%;
+    font-size: 30px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 540px) {
+    .site-main .skills-area .exp-area .whatsapp-area {
+        padding-left: 2rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 792px) {
+    .site-main .sobre-area .sobre-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 5px;
+    }
+
+     .site-main .skills-area .exp-area .anos-area{
+        padding-left: 1%;
+        width:49%;
+     }
+
+    .site-main .skills-area .exp-area .bg-panel{
+        margin-left:30%;
+        width: 90%;
+    }
+
+    .site-main .skills-area .exp-area .add-me{
+        padding-left: 3%;
+    }
+    .site-main .projetos-area .button-group button{
+        font: normal 500 18px/40px var(--baloo);
+    }
+    .site-main .sobre-area .sobre-title p{
+       padding: 0%;
+    }
+    .site-main .newsletter-area .newsletters form .input-textbox input {
+        width: 75vw;
+        margin: 5% 0;
+    }
+
+    .site-main .newsletter-area {
+        padding:4rem 1rem 10rem 1rem;
+    }
+
+    .site-main .newsletter-area .newsletters .newsletter-title p {
+        padding-bottom: 1rem;
+    }
+    .header-area .main-menu .navbar .navbar-brand h1.logo-title-text  {
+        font: normal 600 40px/40px var(--baloo);
+    }
+    .first-row {
+        padding-bottom: 2rem;
+    }
+
+     .site-main .depoimentos-area .depoimentos-title p {
+        padding: 1%;
+    }
+    .site-main .newsletter-area .newsletters form .btn-enviar button {
+        width: 100%;
+        font: normal 700 17px/17px var(--baloo);
+        padding: 1rem 0rem;
+    }
+    .site-main .newsletter-area .newsletters .newsletter-title p {
+        padding: 1rem 0;
+    }
+    .site-main .newsletter-area .newsletters .newsletter-title h4 {
+        font: normal 700 27px/30px var(--baloo);
+    }
+
+    .site-main .newsletter-area .newsletters > .flex-form-1 {
+        justify-content: initial !important;
+    }
+    .header-area .main-menu .navbar .navbar-brand {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1430px) {
+    .site-main .newsletter-area .newsletters form .btn-enviar button {
+        margin: 1rem 0;
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 1910px) {
+    .header-area .main-menu .navbar {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width:90%;
+    }
+
+    .site-main .skills-area,
+    .site-main .servicos-area .servicos-title,
+    .site-main .sobre-area {
+        padding:3% 4%;
+    }
+}
